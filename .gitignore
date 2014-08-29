@@ -1,0 +1,7 @@
+*.suo
+/SilkThread.Web/Properties/PublishProfiles
+*.user
+packages
+Debug
+/SilkThread.Web/bin
+Release
