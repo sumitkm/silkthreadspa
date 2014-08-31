@@ -11,6 +11,8 @@ namespace SilkThread.Web.Modules
         public HomeModule()
         {
             Get["/"] = GetIndex;
+            Get["/samples"] = GetIndex;
+            Get["/settings"] = GetIndex;
         }
 
         private dynamic GetIndex(dynamic arg)

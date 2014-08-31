@@ -8,7 +8,6 @@
         "knockout": "libs/knockout/knockout-3.2.0beta.debug",
         "knockout-projections": "libs/knockout/knockout-projections.min",
         "signals": "libs/crossroads/signals",
-        //"hasher": "Scripts/crossroads/hasher",
         "text": "libs/require/text"
     },
     shim: {

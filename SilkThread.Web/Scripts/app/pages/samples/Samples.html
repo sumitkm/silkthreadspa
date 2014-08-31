@@ -1,0 +1,25 @@
+﻿<div class="well">
+    <h2>The 'Greeter' Sample</h2>
+    <p>
+        'Greeter' is a simple component that takes in one parameter that's the name of the person to greet.
+        In this sample, the 'Samples' page view model has an array called guests with three names - Sumit, Optimus and Bumblebee.
+        This samples page, loops through the guests array and assigns one name to one greeter component in a standard ko foreach loop.
+    </p>
+</div>
+<div class="panel panel-info">
+    <div class="panel-heading">
+        The markup for the greeter template on this page is as follows:
+    </div>
+    <div class="panel-body">
+        <pre>
+    &lt;!-- ko foreach: guests --&gt; 
+        &lt;greeter params='name: guestName'&gt;&lt;/greeter &gt;
+    &lt;!-- /ko --&gt;
+        </pre>
+    </div>
+</div>
+<samp>
+    <!-- ko foreach: guests -->
+    <greeter params='name: guestName'></greeter>
+    <!-- /ko -->
+</samp>

@@ -1,6 +1,14 @@
-﻿<h2 data-bind="text: title"></h2>
-<hr />
-<!-- ko foreach: guests -->
-<greeter params='name: guestName'></greeter>
-<!-- /ko -->
+﻿<div class="well">
+    <h2 data-bind="text: title"></h2>
+    <h4>A small SPA framework threading together a bunch of cool Open Source JavaScript components</h4>
+</div>
+<ul class="list-group">
+    <li class="list-group-item list-group-item-info">It uses the following libraries</li>
+    <li class="list-group-item">Knockout JS 3.2+ for data-binding and web-components</li>
+    <li class="list-group-item">Crossroads JS for client side routing</li>
+    <li class="list-group-item">History JS for browser history and pushstate</li>
+    <li class="list-group-item">JS Signals for eventing</li>
+</ul>
+
+
 <!--<pre data-bind="text: ko.toJSON($data, null, 5)"></pre>-->
