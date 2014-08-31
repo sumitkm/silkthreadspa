@@ -14,9 +14,6 @@ namespace SilkThread.Web.Boot
 
             nancyConventions.StaticContentsConventions.Add(
                 Nancy.Conventions.StaticContentConventionBuilder.AddDirectory("Scripts"));
-
-            nancyConventions.StaticContentsConventions.Add(
-                Nancy.Conventions.StaticContentConventionBuilder.AddDirectory("Views"));
         }
     }
 }
