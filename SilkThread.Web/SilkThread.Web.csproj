@@ -64,7 +64,6 @@
     <Content Include="Scripts\app\pages\samples\samples.html" />
     <Content Include="Scripts\app\pages\samples\samples.js" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.min.map" />
-    <None Include="Properties\PublishProfiles\silkthread.pw - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

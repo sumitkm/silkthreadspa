@@ -7,6 +7,3 @@
     });
     ko.applyBindings({ route: router.currentRoute });
 });
-
-
-

@@ -16,10 +16,11 @@
         &lt;greeter params='name: guestName'&gt;&lt;/greeter &gt;
     &lt;!-- /ko --&gt;
         </pre>
+        <p>The result of the data-binding is as follows</p>
+        <samp>
+            <!-- ko foreach: guests -->
+            <greeter params='name: guestName'></greeter>
+            <!-- /ko -->
+        </samp>
     </div>
 </div>
-<samp>
-    <!-- ko foreach: guests -->
-    <greeter params='name: guestName'></greeter>
-    <!-- /ko -->
-</samp>
