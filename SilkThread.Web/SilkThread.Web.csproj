@@ -61,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\app\components\tree-node\tree-node.html" />
+    <Content Include="Scripts\app\components\tree\tree.html" />
+    <Content Include="Scripts\app\components\tree\tree.js" />
+    <Content Include="Scripts\app\pages\docs\docs.html" />
     <Content Include="Scripts\app\pages\samples\samples.html" />
     <Content Include="Scripts\app\pages\samples\samples.js" />
     <Content Include="Scripts\libs\jquery\jquery-1.9.0.min.map" />
@@ -118,6 +122,11 @@
     <Compile Include="Modules\HomeModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\app\components\tree-node\tree-node.js" />
+    <Content Include="Scripts\app\pages\docs\docs.js" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

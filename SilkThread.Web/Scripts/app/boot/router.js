@@ -5,6 +5,7 @@ define(["jquery", "knockout", "crossroads", "historyjs"], function ($, ko, cross
         routes: [
             { url: '/', params: { page: 'home' } },
             { url: 'home', params: { page: 'home' } },
+            { url: 'docs', params: { page: 'docs' } },
             { url: 'samples', params: { page: 'samples' } },
             { url: 'settings', params: { page: 'settings' } }
         ]

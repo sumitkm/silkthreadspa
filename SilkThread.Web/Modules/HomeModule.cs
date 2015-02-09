@@ -13,6 +13,7 @@ namespace SilkThread.Web.Modules
             Get["/"] = GetIndex;
             Get["/samples"] = GetIndex;
             Get["/settings"] = GetIndex;
+            Get["/docs"] = GetIndex;
         }
 
         private dynamic GetIndex(dynamic arg)
